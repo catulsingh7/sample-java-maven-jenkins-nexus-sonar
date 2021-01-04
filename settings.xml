@@ -5,23 +5,23 @@
 
   <servers>
     <server>
-      <id>repo<id>
+      <id>test-release<id>
       <username>admin</username>
-      <password>admin123</password>
+      <password>123pp\\</password>
     </server>
 
     <server>
-      <id>snapshots</id>
+      <id>test-release</id>
       <username>admin</username>
-      <password>admin123</password>
+      <password>123pp\\</password>
     </server>
   </servers>
 
   <mirrors>
     <mirror>
-      <id>repo</id>
-      <name>repo</name>
-      <url>http://10.22.21.138:8081/repository/repo/</url>
+      <id>test-release</id>
+      <name>test-release</name>
+      <url>http://13.126.60.4:8081/repository/test-release/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
